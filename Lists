@@ -1,0 +1,11 @@
+Lists are created with square brackets and the element numbering starts at 0
+
+(min(list)) finds the minimum
+(max(list)) finds the maximum
+len(list) gives the number of elements within the list
+Square brackets finds a specific item; list[3] finds the third item
+Square brackets with a colon finds a specific portion of a list, list[1:4]
+
+range(limit) gives the range of whole numbers from 0 up to but not including 'limit'
+range(start, limit) gives the range of numbers from 'start' up to but not including 'limit'
+range(start, limit, step) gives the range of every 'step' number from 'start' up to but not including 'limit'
