@@ -1,0 +1,39 @@
+Lists are created with square brackets and can contain any mix of values (numbers and letters), and the element numbering starts at 0
+
+  (min(list)) finds the minimum
+  (max(list)) finds the maximum
+  len(list) gives the number of elements within the list
+Square brackets finds a specific item; list[3] finds the third item
+Square brackets with a colon finds a specific portion of a list, list[1:4]
+
+
+Ranges are sequences of numbers
+
+  range(limit) gives the range of whole numbers from 0 up to but not including 'limit'
+  range(start, limit) gives the range of numbers from 'start' up to but not including 'limit'
+  range(start, limit, step) gives the range of every 'step' number from 'start' up to but not including 'limit'
+
+
+
+Input function can be used to allow the program to get data from the user by pausing and waiting for something to be typed and entered
+
+  name =  input('Enter your name: ')
+
+The variable will always be stored as a string, even numbers.
+Therefore, if working with numbers, input needs to be converted 
+
+  age = int(input('How old are you? '))
+
+
+
+For command is used to repeat code for each item in a sequence by looping
+  
+for x in sequence:
+    print(x)
+
+Loop can be used to generate components of a list, numbers within a range, and even characters within a string
+
+
+
+
+
