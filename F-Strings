@@ -1,0 +1,10 @@
+F strings allow the insertion of different variables into a string in a clean and readable way
+This means that even if the value of the variable changes, the string can still be printed correcrtly
+
+  hindex = 23.5
+  firstname = 'Jo'
+  lastname = 'Jones'
+  age = '35'
+
+  biographic = f"{firstname} {lastname} ({age}) has a H-index of {hindex}"
+    print(biographic)
